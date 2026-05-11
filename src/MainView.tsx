@@ -1,15 +1,14 @@
 function MainView() {
-
-    const food1 = "Orange";
-    const food2 = "Banana";
-
-
     return(
-        <ul>
-            <li>Apple</li>
-            <li>{food1}</li>
-            <li>{food2.toUpperCase()}</li>
-        </ul>
+        <>
+            <div id="name">
+                <h1>Seojoon Lee</h1>
+            </div>
+            <div id="contacts">
+                <p>seojoonlee@korea.ac.kr</p>
+                <p>010-4161-1462</p>
+            </div>
+        </>
     );
 }
 
