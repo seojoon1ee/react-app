@@ -1,1 +1,3 @@
-# Website
+# Seojoonlee.dev
+
+React + Typescript
