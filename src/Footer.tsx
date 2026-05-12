@@ -1,7 +1,8 @@
 function Footer() {
     return(
         <div id="foot">
-            <hr></hr>
+            <div id="line"></div>
+            <p>&copy; 2026 Seojoon Lee</p>
         </div>
     );
 }

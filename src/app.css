@@ -32,24 +32,26 @@ p {
 }
 
 hr {
+    color: #FFF0E3;
+}
+
+button {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#foot {
     position:absolute;
     bottom: 40px;
     right: 40px;
     left: 40px;
     align-self: stretch;
-    color: #FFF0E3;
     width: auto;
-}
 
-button {
-    background-color: rgba(0,0,0,0);
-    width: 30px;
-    height: 30px;
-}
-
-#foot {
-    position:absolute;
-    bottom: 0px;
+    display: grid;
+    gap: 10px;
 }
 
 #img {
@@ -74,18 +76,23 @@ button {
 }
 
 #tabbar {
-    display: grid;
+    display: flex;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 #name {
-    display: flex;
     gap: 20px;
-    align-items: flex-end;
+    margin-right: auto;
 }
 
 #logo {
     width: 30px;
+}
+
+#menu {
+    width: 40px;
+    margin-left: auto;
 }
 
 #view {
@@ -93,6 +100,13 @@ button {
     background-color: #282828;
     min-height: 1500px;
     position: relative;
+}
+
+#line {
+    height: 3px;
+    background-size: auto 100%;
+    background-image: url("/line.png");
+    background-repeat: repeat-x;
 }
 
 .multiline {
