@@ -10,11 +10,11 @@ body {
     align-items: left;
     justify-content: top;
     background-color: #FFF0E3;
-    margin: clamp(0.5vw,5vw,40px);
+    margin: 40px;
     position:relative;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     body {
         margin: 0;
     }
@@ -22,7 +22,7 @@ body {
 
 h1 { 
     color: #FFF0E3;
-    font-size: clamp(36px, 7vw, 48px);
+    font-size: clamp(36px, 10vw, 60px);
     font-weight: 700;
     margin-top: 6px;
 }
@@ -62,10 +62,6 @@ button {
     width: 200px;
 }
 
-#contacts {
-    margin-bottom: 5px;
-}
-
 #list {
     display: grid;
     margin-top: 20px;
@@ -79,8 +75,21 @@ button {
     align-items: center;
 }
 
-#name {
+#centerView {
+    display: flex;
     grid-area: name;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
+    height: calc(100vh - 135px);
+}
+
+#jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #logo {
@@ -95,6 +104,13 @@ button {
 
 #about {
     width: 40px;
+}
+
+#arrow {
+    width: 50px;
+    background-color: #FFF0E3;
+    position: absolute;
+    top: calc(100vh - 90px);
 }
 
 button:hover {

@@ -14,18 +14,19 @@ function MainView() {
                     </div>
                 </nav>
             </header>
-            <div id="name">
+            <div id="centerView">
                 <h1>Seojoon Lee</h1>
-                <div id="contacts">
-                    <p>seojoonlee@korea.ac.kr</p>
-                    <p>010-4161-1462</p>
+                <div id="jobs">
+                    <p>General Software Developer</p>
+                    <p>Apps / Games / AI / Web Frontend / Hosting and more!</p>
                 </div>
+                <img src="/arrow.png" id="arrow"></img>
             </div>
             <aside className={`sidebar-container ${isOpen ? "is-open" : ""}`}>
                 <SideBarOpened/>
             </aside>
             <div id="content">
-                
+                <div id="line"></div>
             </div>
             <div id="foot">
                 <div id="line"></div>
