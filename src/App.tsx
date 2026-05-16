@@ -2,8 +2,10 @@ import './app.css'
 import React from 'react';
 import { Routes, Route, Link} from 'react-router-dom';
 import Home from './Home';
-import About from './About';
 import SideBar from './SideBar';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Resume from './Pages/Resume';
 
 function App() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -24,10 +26,12 @@ function App() {
       <Routes>\
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <div id="foot">
         <div id="line"></div>
-          <p>&copy; 2026 Seojoon Lee | All assets hand made.</p>
+          <p>&copy; 2026 Seojoon Lee</p>
         </div>
     </div>
   );

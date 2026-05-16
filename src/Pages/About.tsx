@@ -1,5 +1,3 @@
-import './app.css'
-
 function About() {
     return(
         <p>about</p>
