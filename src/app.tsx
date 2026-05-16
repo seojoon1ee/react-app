@@ -1,11 +1,11 @@
-import './app.css'
+import './css/style.css'
 import React from 'react';
 import { Routes, Route, Link} from 'react-router-dom';
-import Home from './Home';
-import SideBar from './SideBar';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
-import Resume from './Pages/Resume';
+import Home from './home';
+import SideBar from './sidebar';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Resume from './pages/resume';
 
 function App() {
   const [isOpen, setIsOpen] = React.useState(false);
