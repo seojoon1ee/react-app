@@ -15,7 +15,7 @@ function MainView() {
                 </nav>
             </header>
             <div id="centerView">
-                <h1>Seojoon Lee</h1>
+                <h1 id="name">Seojoon Lee</h1>
                 <div id="jobs">
                     <p>General Software Developer</p>
                     <p>Apps / Games / AI / Web Frontend / Hosting and more!</p>
