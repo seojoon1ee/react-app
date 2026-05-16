@@ -27,6 +27,9 @@ function MainView() {
             </aside>
             <div id="content">
                 <div id="line"></div>
+                <h1 style={{marginTop: "10px"}}>Projects</h1>
+                <div id="projects">
+                </div>
             </div>
             <div id="foot">
                 <div id="line"></div>
