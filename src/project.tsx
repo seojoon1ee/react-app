@@ -19,6 +19,7 @@ function Project({ name, date, skills, image, video, width, link }: ProjectProps
             {image && <img src={image} className="projectImage"></img>}
             {video && 
             <video 
+                playsInline
                 autoPlay 
                 loop 
                 muted 

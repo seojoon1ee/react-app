@@ -223,6 +223,8 @@ button:hover {
     border-radius: 10px;
     border: 2px solid #FFF0E3;
     margin-top: 10px;
+    pointer-events: none;
+    touch-action: none;
 }
 
 .projectVideo {
