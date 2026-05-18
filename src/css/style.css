@@ -225,6 +225,13 @@ button:hover {
     margin-top: 10px;
 }
 
+.projectVideo {
+    border-radius: 10px;
+    border: 2px solid #FFF0E3;
+    margin-top: 10px;
+    max-width: 50vw;
+}
+
 .logo {
     width: 30px;
     color: #FFF0E3
@@ -258,6 +265,14 @@ button:hover {
 
     .sidebar-container {
         right: 10px;
+    }
+
+    .projectImage {
+        width: 100%;
+        max-width: 100%;
+    }
+    .projectVideo {
+        max-width: 100%;
     }
 }
 

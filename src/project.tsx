@@ -18,7 +18,13 @@ function Project({ name, date, skills, image, video, width, link }: ProjectProps
             <h3>{name}</h3>
             {image && <img src={image} className="projectImage"></img>}
             {video && 
-            <video autoPlay loop muted style={{width: "100%", maxWidth: width ? width : "50vw"}} className="projectImage">
+            <video 
+                autoPlay 
+                loop 
+                muted 
+                className="projectVideo"
+                style={{ '--desktop-max': width ? width : "50vw" } as React.CSSProperties}
+            >
                 <source src={video} type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>}
