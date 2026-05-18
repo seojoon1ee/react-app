@@ -1,6 +1,6 @@
 import './css/style.css'
-import React from 'react';
-import { Routes, Route, Link} from 'react-router-dom';
+import { useEffect, useState} from 'react';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './home';
 import SideBar from './sidebar';
 import About from './pages/about';
@@ -8,7 +8,12 @@ import Contact from './pages/contact';
 import Resume from './pages/resume';
 
 function App() {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const page = useLocation();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [page])
 
   return(
     <div id="view">

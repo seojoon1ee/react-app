@@ -24,7 +24,7 @@ function Project({ name, date, skills, image, video, width, link }: ProjectProps
                 loop 
                 muted 
                 className="projectVideo"
-                style={{ '--desktop-max': width ? width : "50vw" } as React.CSSProperties}
+                style={{width: width ? width : "50vw" } as React.CSSProperties}
             >
                 <source src={video} type="video/mp4"/>
                 Your browser does not support the video tag.
