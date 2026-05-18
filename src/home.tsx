@@ -15,9 +15,9 @@ function Home() {
                 <div id="line"></div>
                 <h1 style={{marginTop: "10px", marginBottom: "10px", fontSize: "36px"}}>Projects</h1>
                 <Project name="Node: A self hosted text editing app." date="Feb. 2026 ~ Current" skills="React, Typescript, Node.js" image="/node.jpg" link="https://github.com/seojoon1ee/node"/>
-                <Project name="Gesture Control w/OpenCV" date="Mar. 2023 ~ Dec. 2024" skills="Python, CNN" video="/gc.mp4" link="https://github.com/seojoon1ee/gesture-control"/>
-                <Project name="Centerlocked: A mobile game" date="Jan. 2021 ~ Dec. 2022" video="/centerlocked.mp4" skills="Unity, C#" width="25vw" link="https://github.com/seojoon1ee/centerlocked"/>
-                <Project name="Portable handheld gaming device" date="Aug. 2020 ~ Jan. 2022" skills="Raspberry Pi, Lattepanda, Arduino, 3D Printing, 3D Modeling" video="/mk.mp4" width="50vw" link="https://github.com/seojoon1ee/handheld/"/>
+                <Project name="Gesture Control w/OpenCV" date="Mar. 2023 ~ Dec. 2024" skills="Python, CNN" video="/gc.mp4" link="https://github.com/Holdupp/gesture-control"/>
+                <Project name="Centerlocked: A mobile game" date="Jan. 2021 ~ Dec. 2022" video="/centerlocked.mp4" skills="Unity, C#" width="25vw" link="https://github.com/Holdupp/centerlocked-game"/>
+                <Project name="Portable handheld gaming device" date="Aug. 2020 ~ Jan. 2022" skills="Raspberry Pi, Lattepanda, Arduino, 3D Printing, 3D Modeling" video="/mk.mp4" width="50vw" link="https://github.com/Holdupp/handheld"/>
             </div>
             <div id="skills">
                 <div id="line"/>
